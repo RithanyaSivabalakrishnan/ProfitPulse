@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.so
+*.dylib
+env/
+venv/
+.venv/
+.env
+ENV/
+pip-log.txt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (large; download from Kaggle)
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# Keep output CSVs and charts in git (generated reproducibly)
+# Uncomment below to exclude them:
+# output/
+
+# PowerBI binary (large, optional)
+# powerbi/*.pbix
+
+# Logs
+logs/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
