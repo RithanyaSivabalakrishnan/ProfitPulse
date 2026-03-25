@@ -18,11 +18,14 @@ warnings.filterwarnings("ignore")
 # 1. Load and prepare monthly sales series
 # ─────────────────────────────────────────────────────────────────────────────
 def load_monthly_sales(filepath: str) -> pd.Series:
-    """Load monthly_sales.csv and return a pd.Series indexed by period."""
+    """Load monthly_sales.csv and return a pd.Series indexed by datetime."""
     df = pd.read_csv(filepath)
-    df["YearMonth"] = pd.to_datetime(df["YearMonth"])
-    df = df.set_index("YearMonth").sort_index()
-    series = df["Sales"].dropna()
+    # Support both 'YearMonth' and 'year_month' column names
+    date_col = "YearMonth" if "YearMonth" in df.columns else df.columns[0]
+    df[date_col] = pd.to_datetime(df[date_col].astype(str).str[:7], format="%Y-%m")
+    df = df.set_index(date_col).sort_index()
+    value_col = "Sales" if "Sales" in df.columns else "sales"
+    series = df[value_col].dropna()
     logger.info(f"Loaded monthly sales: {len(series)} periods ({series.index[0].date()} to {series.index[-1].date()})")
     return series
 

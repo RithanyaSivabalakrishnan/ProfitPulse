@@ -30,7 +30,7 @@ OUTPUT_DIR = BASE_DIR / "output"
 LOGS_DIR = BASE_DIR / "logs"
 
 # Default dataset path — place CSV here after download from Kaggle
-DEFAULT_DATASET_PATH = str(DATA_DIR / "superstore.csv")
+DEFAULT_DATASET_PATH = str(DATA_DIR / "SuperStoreOrders - SuperStoreOrders.csv")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -308,7 +308,7 @@ def main():
 
             # Validation
             assert len(df_clean) > 0, "Cleaned dataset is empty!"
-            assert "Profit Ratio" in df_clean.columns, "Missing Profit Ratio column!"
+            assert "profit_ratio" in df_clean.columns, "Missing profit_ratio column!"
             logger.info("✓ Validation passed: cleaned dataset OK")
 
         # Step 2 — Features

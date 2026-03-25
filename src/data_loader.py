@@ -1,6 +1,7 @@
 """
 Module 1: Data Loader
 ProfitPlus — Superstore Sales Analytics Dashboard
+Actual dataset: SuperStoreOrders - SuperStoreOrders.csv (21 columns, snake_case headers)
 """
 
 import os
@@ -9,50 +10,42 @@ import pandas as pd
 
 logger = logging.getLogger(__name__)
 
-# Expected dataset dimensions
-EXPECTED_ROWS = 9994
 EXPECTED_COLS = 21
 
-# Column names expected in the raw CSV
+# Actual columns in the dataset (snake_case)
 EXPECTED_COLUMNS = [
-    "Row ID", "Order ID", "Order Date", "Ship Date", "Ship Mode",
-    "Customer ID", "Customer Name", "Segment", "Country", "City",
-    "State", "Postal Code", "Region", "Product ID", "Category",
-    "Sub-Category", "Product Name", "Sales", "Quantity", "Discount", "Profit"
+    "order_id", "order_date", "ship_date", "ship_mode", "customer_name",
+    "segment", "state", "country", "market", "region", "product_id",
+    "category", "sub_category", "product_name", "sales", "quantity",
+    "discount", "profit", "shipping_cost", "order_priority", "year"
 ]
+
+# Default dataset filename
+DEFAULT_FILENAME = "SuperStoreOrders - SuperStoreOrders.csv"
 
 
 def load_data(filepath: str) -> pd.DataFrame:
     """
-    Load the Superstore CSV dataset from the given filepath.
+    Load the Superstore CSV dataset.
 
     Parameters
     ----------
     filepath : str
-        Absolute or relative path to the CSV file.
+        Path to the CSV file.
 
     Returns
     -------
     pd.DataFrame
         Raw dataset.
-
-    Raises
-    ------
-    FileNotFoundError
-        If the file does not exist.
-    AssertionError
-        If the dataset dimensions do not match expected values.
     """
     if not os.path.exists(filepath):
         raise FileNotFoundError(
             f"Dataset not found at: {filepath}\n"
-            "Please download from: https://www.kaggle.com/datasets/thuandao/superstore-sales-analytics\n"
-            "and place the CSV file in the data/ directory."
+            "Please ensure the CSV is in the data/ directory."
         )
 
     logger.info(f"Loading dataset from: {filepath}")
 
-    # Try UTF-8 first, fall back to latin-1 (Superstore CSVs sometimes have encoding issues)
     for encoding in ("utf-8", "latin-1", "cp1252"):
         try:
             df = pd.read_csv(filepath, encoding=encoding)
@@ -62,35 +55,29 @@ def load_data(filepath: str) -> pd.DataFrame:
     else:
         raise ValueError("Could not read the CSV with any supported encoding.")
 
-    logger.info(f"Loaded dataset: {df.shape[0]:,} rows × {df.shape[1]} columns")
+    # Normalize column names to lowercase strip whitespace
+    df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_").str.replace("-", "_")
 
-    # ── Validate dimensions ──────────────────────────────────────────────────
     actual_rows, actual_cols = df.shape
-    if actual_rows != EXPECTED_ROWS:
-        logger.warning(
-            f"Expected {EXPECTED_ROWS:,} rows but got {actual_rows:,}. "
-            "Proceeding, but verify the dataset version."
-        )
-    if actual_cols != EXPECTED_COLS:
-        logger.warning(
-            f"Expected {EXPECTED_COLS} columns but got {actual_cols}. "
-            "Column list may differ."
-        )
-
-    # ── Log column overview ──────────────────────────────────────────────────
+    logger.info(f"Loaded: {actual_rows:,} rows × {actual_cols} columns")
     logger.info("Columns: " + ", ".join(df.columns.tolist()))
-    logger.info(f"Memory usage: {df.memory_usage(deep=True).sum() / 1024:.1f} KB")
+
+    # Ensure numeric columns are properly typed (CSV sometimes reads them as str)
+    for col in ["sales", "quantity", "discount", "profit", "shipping_cost"]:
+        if col in df.columns:
+            df[col] = __import__("pandas").to_numeric(df[col], errors="coerce")
+
+    if actual_cols != EXPECTED_COLS:
+        logger.warning(f"Expected {EXPECTED_COLS} columns but got {actual_cols}.")
 
     return df
 
 
 def get_data_summary(df: pd.DataFrame) -> dict:
-    """Return a brief summary dict of the loaded dataset."""
     return {
         "rows": len(df),
         "columns": len(df.columns),
         "column_names": df.columns.tolist(),
-        "dtypes": df.dtypes.astype(str).to_dict(),
         "null_counts": df.isnull().sum().to_dict(),
         "memory_kb": round(df.memory_usage(deep=True).sum() / 1024, 2),
     }
