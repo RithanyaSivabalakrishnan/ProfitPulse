@@ -14,25 +14,37 @@ logger = logging.getLogger(__name__)
 
 
 def pareto_products(df: pd.DataFrame) -> pd.DataFrame:
-    id_col = "product_id" if "product_id" in df.columns else None
-    name_col = "product_name" if "product_name" in df.columns else None
+    """
+    Pareto analysis at the product_id level.
+    product_id is guaranteed unique — required for PowerBI many-to-one relationship.
+    Dimension columns (product_name, category, sub_category) are taken as the
+    first occurrence per product_id.
+    """
     sub_col = "sub_category" if "sub_category" in df.columns else "sub-category"
 
-    group_cols = ["category", sub_col]
-    if name_col:
-        group_cols.append(name_col)
-    if id_col:
-        group_cols.insert(0, id_col)
-
+    # Step 1: Aggregate metrics by product_id only (guarantees uniqueness)
     product_rev = (
-        df.groupby(group_cols)
-        .agg(Revenue=("sales", "sum"), Profit=("profit", "sum"),
-             Orders=("order_id", "nunique"), Quantity=("quantity", "sum"))
+        df.groupby("product_id")
+        .agg(
+            Revenue=("sales", "sum"),
+            Profit=("profit", "sum"),
+            Orders=("order_id", "nunique"),
+            Quantity=("quantity", "sum"),
+        )
         .reset_index()
         .sort_values("Revenue", ascending=False)
         .reset_index(drop=True)
     )
 
+    # Step 2: Join dimension attributes (first occurrence per product_id)
+    dim_cols = ["product_id"]
+    for col in ["product_name", "category", sub_col]:
+        if col in df.columns:
+            dim_cols.append(col)
+    dim = df[dim_cols].drop_duplicates(subset=["product_id"], keep="first")
+    product_rev = product_rev.merge(dim, on="product_id", how="left")
+
+    # Step 3: Cumulative / Pareto metrics
     total = product_rev["Revenue"].sum()
     product_rev["Cumulative_Revenue"] = product_rev["Revenue"].cumsum()
     product_rev["Cumulative_Revenue_Pct"] = (product_rev["Cumulative_Revenue"] / total * 100).round(2)
@@ -40,10 +52,17 @@ def pareto_products(df: pd.DataFrame) -> pd.DataFrame:
     product_rev["Is_Top20_Pct"] = ((product_rev.index + 1) / len(product_rev) * 100) <= 20
     product_rev["Rank"] = range(1, len(product_rev) + 1)
 
+    # Validate uniqueness
+    assert product_rev["product_id"].is_unique, "product_id still not unique after dedup!"
+
     top20 = product_rev[product_rev["Is_Top20_Pct"]]
-    logger.info(f"Top 20% products ({len(top20)} items): ${top20['Revenue'].sum():,.0f} revenue "
-                f"({top20['Revenue'].sum()/total*100:.1f}% of total)")
+    logger.info(
+        f"Top 20% products ({len(top20)} unique IDs): "
+        f"${top20['Revenue'].sum():,.0f} ({top20['Revenue'].sum()/total*100:.1f}% of total)"
+    )
+    logger.info(f"Total unique product_ids: {len(product_rev)} — ready for PowerBI relationship")
     return product_rev
+
 
 
 def pareto_regions(df: pd.DataFrame) -> pd.DataFrame:
