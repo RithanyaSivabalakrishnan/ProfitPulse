@@ -65,25 +65,57 @@ def pareto_products(df: pd.DataFrame) -> pd.DataFrame:
 
 
 
-def pareto_regions(df: pd.DataFrame) -> pd.DataFrame:
-    region_cols = [c for c in ["region", "state"] if c in df.columns]
-    if not region_cols:
-        region_cols = ["market"]
+def pareto_regions(df: pd.DataFrame) -> tuple:
+    """
+    Returns two DataFrames:
+      1. region_summary  — one row per REGION (unique key for PowerBI relationship)
+      2. state_detail    — one row per STATE within each region (for map/drill-down)
+    """
+    has_region = "region" in df.columns
+    has_state  = "state"  in df.columns
+    fallback   = "market" if "market" in df.columns else None
 
-    region_rev = (
-        df.groupby(region_cols)
-        .agg(Revenue=("sales", "sum"), Profit=("profit", "sum"),
-             Orders=("order_id", "nunique"),
-             Customers=("customer_name", "nunique"))
-        .reset_index()
-        .sort_values("Revenue", ascending=False)
-    )
-    total = region_rev["Revenue"].sum()
-    region_rev["Revenue_Share_Pct"] = (region_rev["Revenue"] / total * 100).round(2)
-    region_rev["Profit_Margin_Pct"] = (region_rev["Profit"] / region_rev["Revenue"] * 100).round(2)
-    region_rev["Rank"] = range(1, len(region_rev) + 1)
-    logger.info(f"Region analysis: {len(region_rev)} rows")
-    return region_rev
+    # ── Region-level (unique) ─────────────────────────────────────────────────
+    region_group = "region" if has_region else fallback
+    if region_group:
+        region_summary = (
+            df.groupby(region_group)
+            .agg(Revenue=("sales", "sum"), Profit=("profit", "sum"),
+                 Orders=("order_id", "nunique"), Customers=("customer_name", "nunique"))
+            .reset_index()
+            .sort_values("Revenue", ascending=False)
+            .reset_index(drop=True)
+        )
+        total = region_summary["Revenue"].sum()
+        region_summary["Revenue_Share_Pct"]  = (region_summary["Revenue"] / total * 100).round(2)
+        region_summary["Profit_Margin_Pct"]  = (region_summary["Profit"]  / region_summary["Revenue"] * 100).round(2)
+        region_summary["Rank"] = range(1, len(region_summary) + 1)
+        assert region_summary[region_group].is_unique, "region still not unique!"
+        logger.info(f"Region summary: {len(region_summary)} unique regions")
+    else:
+        region_summary = pd.DataFrame()
+
+    # ── State-level detail (for map visual) ───────────────────────────────────
+    state_cols = [c for c in ["region", "state", "country"] if c in df.columns]
+    if not state_cols and fallback:
+        state_cols = [fallback]
+
+    if state_cols:
+        state_detail = (
+            df.groupby(state_cols)
+            .agg(Revenue=("sales", "sum"), Profit=("profit", "sum"),
+                 Orders=("order_id", "nunique"), Customers=("customer_name", "nunique"))
+            .reset_index()
+            .sort_values("Revenue", ascending=False)
+        )
+        total2 = state_detail["Revenue"].sum()
+        state_detail["Revenue_Share_Pct"] = (state_detail["Revenue"] / total2 * 100).round(2)
+        state_detail["Profit_Margin_Pct"] = (state_detail["Profit"] / state_detail["Revenue"] * 100).round(2)
+        logger.info(f"State detail: {len(state_detail)} region-state rows")
+    else:
+        state_detail = pd.DataFrame()
+
+    return region_summary, state_detail
 
 
 def build_kpi_metrics(df: pd.DataFrame) -> pd.DataFrame:
@@ -169,9 +201,15 @@ def run_pareto_analysis(cleaned_path: str = "output/cleaned_superstore.csv",
     prod_path = os.path.join(output_dir, "pareto_products.csv")
     prod.to_csv(prod_path, index=False)
 
-    reg = pareto_regions(df)
+    # pareto_regions returns (region_summary, state_detail)
+    region_summary, state_detail = pareto_regions(df)
     reg_path = os.path.join(output_dir, "pareto_regions.csv")
-    reg.to_csv(reg_path, index=False)
+    region_summary.to_csv(reg_path, index=False)
+    # Also save the state-level detail for map/drill-down visual
+    state_path = os.path.join(output_dir, "pareto_regions_state.csv")
+    state_detail.to_csv(state_path, index=False)
+    logger.info(f"  -> pareto_regions.csv ({len(region_summary)} unique regions)")
+    logger.info(f"  -> pareto_regions_state.csv ({len(state_detail)} region-state rows)")
 
     kpi = build_kpi_metrics(df)
     kpi_path = os.path.join(output_dir, "kpi_metrics.csv")
@@ -187,6 +225,7 @@ def run_pareto_analysis(cleaned_path: str = "output/cleaned_superstore.csv",
     return {
         "pareto_products_csv": prod_path,
         "pareto_regions_csv": reg_path,
+        "pareto_regions_state_csv": state_path,
         "kpi_metrics_csv": kpi_path,
         "waterfall_chart": waterfall_path,
         "kpi": kpi.to_dict(orient="records")[0],

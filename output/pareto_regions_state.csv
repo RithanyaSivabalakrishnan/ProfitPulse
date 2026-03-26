@@ -1,0 +1,830 @@
+region,state,country,Revenue,Profit,Orders,Customers,Revenue_Share_Pct,Profit_Margin_Pct
+West,California,United States,49124.0,8855.1753,262,227,3.83,18.03
+North,England,United Kingdom,41478.0,7352.685,170,154,3.24,17.73
+Central,Ile-de-France,France,31635.0,4603.7535,121,113,2.47,14.55
+East,New York,United States,29231.0,6501.598,138,131,2.28,22.24
+Oceania,New South Wales,Australia,26056.0,3361.965,97,93,2.03,12.9
+Central,North Rhine-Westphalia,Germany,23796.0,4044.0480000000002,83,76,1.86,16.99
+Central,Texas,United States,21871.0,-304.4909,142,129,1.71,-1.39
+Southeast Asia,National Capital,Philippines,18797.0,-1337.6055000000001,67,67,1.47,-7.12
+Oceania,Queensland,Australia,18524.0,1798.065,87,83,1.45,9.71
+Central,San Salvador,El Salvador,15610.0,3507.8128,74,72,1.22,22.47
+West,Washington,United States,15224.0,2563.1006,60,57,1.19,16.84
+Oceania,Victoria,Australia,14005.0,1481.061,55,52,1.09,10.58
+Central,Provence-Alpes-Côte d'Azur,France,13132.0,2093.0085,50,49,1.03,15.94
+East,Pennsylvania,United States,12771.0,-672.7275999999999,77,75,1.0,-5.27
+South,São Paulo,Brazil,12503.0,2292.20144,53,52,0.98,18.33
+Caribbean,Santo Domingo,Dominican Republic,11724.0,249.31304000000003,68,67,0.92,2.13
+Central,Guatemala,Guatemala,11601.0,2324.41732,48,43,0.91,20.04
+Southeast Asia,Bangkok,Thailand,10535.0,-634.032,37,37,0.82,-6.02
+North,Distrito Federal,Mexico,10151.0,1480.81088,58,55,0.79,14.59
+Southeast Asia,Jakarta,Indonesia,9963.0,-67.82039999999999,38,38,0.78,-0.68
+South,Florida,United States,9950.0,802.9112,51,51,0.78,8.07
+Central,Rhône-Alpes,France,9728.0,1417.1399999999999,37,33,0.76,14.57
+Central Asia,Uttar Pradesh,India,9435.0,1836.54,22,22,0.74,19.47
+North Asia,Guangdong,China,9427.0,1891.32,31,30,0.74,20.06
+Central,Managua,Nicaragua,9354.0,2032.91704,52,51,0.73,21.73
+East,Ohio,United States,9217.0,-23.025399999999983,55,52,0.72,-0.25
+Central,Illinois,United States,8914.0,-386.26320000000004,65,63,0.7,-4.33
+Oceania,Auckland,New Zealand,8648.0,-1545.636,32,32,0.68,-17.87
+Central,Michigan,United States,8323.0,2007.0523,24,23,0.65,24.11
+Central,Berlin,Germany,8122.0,1044.09,30,30,0.63,12.86
+Central,Francisco Morazán,Honduras,8119.0,-1603.98156,51,48,0.63,-19.76
+Africa,Al Qahirah,Egypt,7993.0,1546.35,36,34,0.62,19.35
+Oceania,Western Australia,Australia,7769.0,996.507,30,30,0.61,12.83
+South,North Carolina,United States,7685.0,772.0254,43,41,0.6,10.05
+Canada,Ontario,Canada,7239.0,1309.8,29,27,0.57,18.09
+Oceania,South Australia,Australia,7227.0,1216.362,19,19,0.56,16.83
+Central,Panama,Panama,7220.0,-1349.98592,46,45,0.56,-18.7
+Southeast Asia,Jawa Timur,Indonesia,6671.0,171.0615,21,21,0.52,2.56
+South,Madrid,Spain,6443.0,1271.355,24,23,0.5,19.73
+Southeast Asia,Jawa Barat,Indonesia,6409.0,-354.9897,38,37,0.5,-5.54
+EMEA,Baghdad,Iraq,6093.0,1464.15,20,19,0.48,24.03
+South,Lazio,Italy,5854.0,925.422,19,19,0.46,15.81
+EMEA,Ar Riyad,Saudi Arabia,5796.0,1136.43,19,19,0.45,19.61
+North,Jalisco,Mexico,5724.0,691.10056,30,29,0.45,12.07
+Africa,Kinshasa,Democratic Republic of the Congo,5720.0,1220.52,34,34,0.45,21.34
+Central,Aquitaine,France,5634.0,965.052,29,28,0.44,17.13
+South,Catalonia,Spain,5382.0,569.109,18,18,0.42,10.57
+South,Georgia,United States,5371.0,1399.6853,20,20,0.42,26.06
+Central Asia,Maharashtra,India,5259.0,823.65,28,27,0.41,15.66
+North Asia,Liaoning,China,5234.0,902.76,12,12,0.41,17.25
+North,Coahuila,Mexico,5205.0,194.75788,16,16,0.41,3.74
+Africa,Gauteng,South Africa,5066.0,1143.81,22,22,0.4,22.58
+South,Sicily,Italy,4835.0,501.57,14,14,0.38,10.37
+Central,Baden-Württemberg,Germany,4825.0,1098.642,20,19,0.38,22.77
+Central,Hamburg,Germany,4773.0,1099.599,14,14,0.37,23.04
+Central,Pays de la Loire,France,4731.0,1045.233,18,18,0.37,22.09
+Central,Bavaria,Germany,4727.0,819.981,26,26,0.37,17.35
+Central,Vienna,Austria,4721.0,1035.99,22,21,0.37,21.94
+Southeast Asia,Ho Chí Minh City,Vietnam,4719.0,589.8321,18,18,0.37,12.5
+Southeast Asia,Yangon,Myanmar (Burma),4334.0,169.9263,11,11,0.34,3.92
+Central,Cortés,Honduras,4248.0,-1080.04404,32,31,0.33,-25.42
+North Asia,Sichuan,China,4213.0,814.41,12,12,0.33,19.33
+South,Virginia,United States,4205.0,1346.0341,36,35,0.33,32.01
+North,México,Mexico,4198.0,768.8748800000001,22,22,0.33,18.32
+North,Chihuahua,Mexico,4197.0,696.04,17,17,0.33,16.58
+North,Yucatán,Mexico,4192.0,612.02424,11,11,0.33,14.6
+South,Buenos Aires,Argentina,4143.0,-583.73384,20,20,0.32,-14.09
+South,Apulia,Italy,4142.0,421.44,17,17,0.32,10.17
+Caribbean,Santiago de Cuba,Cuba,4039.0,761.7863199999999,17,17,0.32,18.86
+Central,Indiana,United States,3945.0,1197.3519,19,18,0.31,30.35
+North,Baja California,Mexico,3893.0,723.32024,16,16,0.3,18.58
+North Asia,Jiangsu,China,3867.0,714.45,18,18,0.3,18.48
+Central,Alsace,France,3858.0,538.554,13,13,0.3,13.96
+North,Sinaloa,Mexico,3833.0,541.148,17,17,0.3,14.12
+South,Lombardy,Italy,3654.0,533.184,17,17,0.29,14.59
+Southeast Asia,Sumatera Utara,Indonesia,3632.0,-52.42709999999999,14,13,0.28,-1.44
+East,Massachusetts,United States,3511.0,874.1884,14,14,0.27,24.9
+Oceania,Australian Capital Territory,Australia,3435.0,-183.822,20,19,0.27,-5.35
+North Asia,Heilongjiang,China,3410.0,818.31,14,14,0.27,24.0
+North,Guanajuato,Mexico,3319.0,586.632,17,17,0.26,17.67
+Central,Nord-Pas-de-Calais,France,3312.0,442.04699999999997,19,19,0.26,13.35
+Central Asia,Dhaka,Bangladesh,3312.0,802.65,12,12,0.26,24.23
+South,Andalusía,Spain,3308.0,669.258,12,12,0.26,20.23
+North,Nuevo León,Mexico,3300.0,384.472,10,10,0.26,11.65
+Central Asia,Delhi,India,3259.0,747.96,7,7,0.25,22.95
+North Asia,Shanghai,China,3244.0,813.18,11,11,0.25,25.07
+Africa,Dakar,Senegal,3239.0,621.21,12,12,0.25,19.18
+West,Arizona,United States,3163.0,380.3492,21,21,0.25,12.02
+Southeast Asia,Singapore,Singapore,3137.0,612.03,13,12,0.24,19.51
+North Asia,Henan,China,3132.0,954.27,8,8,0.24,30.47
+South,Bogota,Colombia,3119.0,697.04028,15,15,0.24,22.35
+South,Kentucky,United States,3106.0,819.5988,21,21,0.24,26.39
+Central,Lower Saxony,Germany,3098.0,87.24900000000002,15,16,0.24,2.82
+West,Colorado,United States,3045.0,224.6926,19,19,0.24,7.38
+North,Puebla,Mexico,3018.0,508.70704,15,15,0.24,16.86
+Central,Saxony,Germany,3007.0,-112.16399999999999,12,11,0.23,-3.73
+Africa,Rabat-Salé-Zemmour-Zaer,Morocco,3000.0,830.28,15,15,0.23,27.68
+Central,Bremen,Germany,2995.0,473.481,8,8,0.23,15.81
+Central,Picardy,France,2975.0,503.469,8,8,0.23,16.92
+North Asia,Zhejiang,China,2936.0,616.836,12,10,0.23,21.01
+East,Delaware,United States,2935.0,868.2091,12,12,0.23,29.58
+West,Oregon,United States,2842.0,-144.4793,14,14,0.22,-5.08
+EMEA,Istanbul,Turkey,2793.0,-2362.23,54,51,0.22,-84.58
+Central,Hesse,Germany,2762.0,529.218,13,13,0.22,19.16
+Africa,Grand Casablanca,Morocco,2753.0,669.87,14,14,0.21,24.33
+Central Asia,Karnataka,India,2708.0,637.4399999999999,16,16,0.21,23.54
+North Asia,Shandong,China,2696.0,510.12,15,15,0.21,18.92
+Caribbean,Santiago,Dominican Republic,2666.0,-84.17904,10,10,0.21,-3.16
+East,Maryland,United States,2635.0,630.9281,12,12,0.21,23.94
+South,Piedmont,Italy,2622.0,498.162,9,9,0.2,19.0
+Central,Brittany,France,2620.0,327.7905,12,12,0.2,12.51
+South,Paraíba,Brazil,2572.0,557.65552,4,4,0.2,21.68
+Africa,Al Iskandariyah,Egypt,2552.0,720.9,15,15,0.2,28.25
+North,Scotland,United Kingdom,2541.0,505.911,15,15,0.2,19.91
+Central,Rhineland-Palatinate,Germany,2537.0,736.407,8,8,0.2,29.03
+South,Santiago,Chile,2535.0,382.39956,11,11,0.2,15.08
+Central,Upper Normandy,France,2533.0,552.1215,9,9,0.2,21.8
+Central Asia,Punjab,Pakistan,2529.0,-416.71500000000003,20,19,0.2,-16.48
+Oceania,Wellington,New Zealand,2511.0,671.85,16,16,0.2,26.76
+Central Asia,Rajasthan,India,2503.0,495.99,13,13,0.2,19.82
+Central,Midi-Pyrénées,France,2469.0,253.43699999999998,11,11,0.19,10.26
+Oceania,Tasmania,Australia,2435.0,-46.107,15,15,0.19,-1.89
+Africa,Katanga,Democratic Republic of the Congo,2421.0,375.84000000000003,12,12,0.19,15.52
+South,Bahia,Brazil,2410.0,68.09811999999997,10,10,0.19,2.83
+South,Pernambuco,Brazil,2408.0,72.71108000000001,13,13,0.19,3.02
+Central,Wisconsin,United States,2394.0,634.9993000000001,13,13,0.19,26.52
+Oceania,Northern Territory,Australia,2386.0,461.898,7,7,0.19,19.36
+Caribbean,Pinar del Río,Cuba,2377.0,336.48816,9,9,0.19,14.16
+North Asia,Chongqing,China,2320.0,248.04,9,8,0.18,10.69
+South,Emilia-Romagna,Italy,2309.0,185.604,12,12,0.18,8.04
+North,Tamaulipas,Mexico,2297.0,473.708,13,13,0.18,20.62
+North,Querétaro,Mexico,2293.0,341.67552,7,6,0.18,14.9
+North,Veracruz,Mexico,2290.0,327.72,12,12,0.18,14.31
+North Asia,Anhui,China,2289.0,414.35999999999996,7,7,0.18,18.1
+EMEA,Tel Aviv,Israel,2287.0,448.65,7,7,0.18,19.62
+Central,Santa Ana,El Salvador,2277.0,467.5,8,8,0.18,20.53
+EMEA,L'viv,Ukraine,2275.0,464.85,6,6,0.18,20.43
+North,Stockholm,Sweden,2258.0,-841.86,18,18,0.18,-37.28
+Central Asia,Madhya Pradesh,India,2254.0,450.78,10,10,0.18,20.0
+Africa,Western Cape,South Africa,2241.0,463.08,12,12,0.17,20.66
+North Asia,Shanxi,China,2236.0,276.42,6,6,0.17,12.36
+Southeast Asia,Jawa Tengah,Indonesia,2229.0,-175.1694,14,14,0.17,-7.86
+Caribbean,Las Tunas,Cuba,2212.0,413.41967999999997,10,10,0.17,18.69
+Central,Lorraine,France,2188.0,400.22700000000003,11,11,0.17,18.29
+EMEA,Makkah,Saudi Arabia,2183.0,434.85,7,7,0.17,19.92
+Caribbean,Ouest,Haiti,2128.0,-445.512,8,8,0.17,-20.94
+EMEA,Razavi Khorasan,Iran,2104.0,611.79,15,15,0.16,29.08
+EMEA,Budapest,Hungary,2101.0,493.44,12,12,0.16,23.49
+Central Asia,Punjab,India,2082.0,344.49,7,7,0.16,16.55
+Africa,Greater Accra,Ghana,2075.0,427.74,8,8,0.16,20.61
+Central,Atlántida,Honduras,2061.0,-366.22284,11,11,0.16,-17.77
+North Asia,Hunan,China,2059.0,560.1,9,9,0.16,27.2
+South,Basque Country,Spain,2041.0,321.42,4,4,0.16,15.75
+Africa,Lagos,Nigeria,2021.0,-2808.2309999999998,46,44,0.16,-138.95
+Central Asia,Tamil Nadu,India,2019.0,518.73,12,12,0.16,25.69
+Africa,Luanda,Angola,2009.0,393.99,8,8,0.16,19.61
+North,Uusimaa,Finland,2000.0,353.25,4,4,0.16,17.66
+Central,Centre,France,1984.0,404.8665,7,7,0.15,20.41
+Central,Saxony-Anhalt,Germany,1963.0,280.986,5,5,0.15,14.31
+EMEA,Bashkortostan,Russia,1933.0,345.12,9,9,0.15,17.85
+EMEA,Jerusalem,Israel,1892.0,238.64999999999998,7,7,0.15,12.61
+North Asia,Seoul,South Korea,1884.0,-287.86199999999997,11,11,0.15,-15.28
+South,Lima (city),Peru,1884.0,-491.028,11,11,0.15,-26.06
+Africa,Eastern Cape,South Africa,1858.0,533.04,9,9,0.15,28.69
+South,O'Higgins,Chile,1855.0,315.12,4,4,0.14,16.99
+EMEA,Mures,Romania,1851.0,199.35,1,1,0.14,10.77
+Canada,Alberta,Canada,1820.0,366.51,7,7,0.14,20.14
+Caribbean,San Pedro de Macorís,Dominican Republic,1801.0,140.568,8,8,0.14,7.8
+Central,Chinandega,Nicaragua,1792.0,284.16008,9,9,0.14,15.86
+Southeast Asia,Phnom Penh,Cambodia,1790.0,285.24,4,4,0.14,15.94
+Central,Escuintla,Guatemala,1768.0,305.83112,7,7,0.14,17.3
+EMEA,Donetsk,Ukraine,1765.0,249.57,11,11,0.14,14.14
+South,Rio de Janeiro,Brazil,1743.0,-45.076,8,8,0.14,-2.59
+Central,Minnesota,United States,1721.0,534.4729,12,11,0.13,31.06
+Central,Languedoc-Roussillon,France,1703.0,486.393,11,11,0.13,28.56
+South,Castile and León,Spain,1691.0,225.282,9,9,0.13,13.32
+South,Tennessee,United States,1678.0,39.172599999999996,22,22,0.13,2.33
+North,Durango,Mexico,1659.0,152.22,6,6,0.13,9.18
+Africa,Dar Es Salaam,Tanzania,1645.0,434.01,11,11,0.13,26.38
+North,Sonora,Mexico,1612.0,219.63912,13,13,0.13,13.63
+South,Minas Gerais,Brazil,1607.0,236.89600000000002,12,12,0.13,14.74
+South,Rio Grande do Sul,Brazil,1596.0,317.58,10,10,0.12,19.9
+Southeast Asia,Sumatera Selatan,Indonesia,1593.0,207.54720000000003,5,5,0.12,13.03
+Africa,Kwazulu-natal,South Africa,1580.0,335.43,3,3,0.12,21.23
+East,New Jersey,United States,1574.0,424.54,11,11,0.12,26.97
+South,Atlántico,Colombia,1558.0,386.84000000000003,4,4,0.12,24.83
+Caribbean,Guantánamo,Cuba,1556.0,267.4,5,5,0.12,17.19
+South,Arkansas,United States,1554.0,595.6465,8,8,0.12,38.33
+South,Trentino-Alto Adige,Italy,1552.0,-49.709999999999994,3,3,0.12,-3.2
+South,Marche,Italy,1527.0,353.82,4,4,0.12,23.17
+North,Quintana Roo,Mexico,1526.0,201.052,7,7,0.12,13.18
+Central,Poitou-Charentes,France,1512.0,22.752000000000002,4,4,0.12,1.5
+South,Valenciana,Spain,1499.0,398.334,9,9,0.12,26.57
+EMEA,Vinnytsya,Ukraine,1498.0,380.07,3,3,0.12,25.37
+EMEA,Khuzestan,Iran,1492.0,325.8,8,8,0.12,21.84
+Southeast Asia,Yogyakarta,Indonesia,1490.0,-118.04490000000001,11,11,0.12,-7.92
+EMEA,Pomerania,Poland,1467.0,316.32,6,6,0.11,21.56
+South,Murcia,Spain,1462.0,330.144,8,8,0.11,22.58
+South,Tuscany,Italy,1458.0,343.788,8,8,0.11,23.58
+Central Asia,Gujarat,India,1457.0,220.83,9,9,0.11,15.16
+Central Asia,West Bengal,India,1455.0,344.78999999999996,8,8,0.11,23.7
+Central,Thuringia,Germany,1451.0,302.4,7,7,0.11,20.84
+Caribbean,Granma,Cuba,1406.0,97.64,5,5,0.11,6.94
+South,Veneto,Italy,1403.0,336.78000000000003,6,6,0.11,24.0
+North Asia,Tianjin,China,1400.0,363.42,7,7,0.11,25.96
+Africa,Analamanga,Madagascar,1395.0,403.59000000000003,5,5,0.11,28.93
+North Asia,Gansu,China,1384.0,257.616,5,5,0.11,18.61
+South,Campania,Italy,1366.0,138.15,13,13,0.11,10.11
+Southeast Asia,Kuala Lumpur,Malaysia,1356.0,258.12,5,5,0.11,19.04
+North Asia,Jilin,China,1346.0,291.03,8,8,0.11,21.62
+North Asia,Yunnan,China,1339.0,344.84999999999997,5,5,0.1,25.75
+EMEA,Masovia,Poland,1329.0,428.70000000000005,6,6,0.1,32.26
+EMEA,Sofiya-Grad,Bulgaria,1320.0,340.02,6,6,0.1,25.76
+EMEA,Al Madinah,Saudi Arabia,1304.0,172.8,7,7,0.1,13.25
+EMEA,Fars,Iran,1296.0,383.04,9,9,0.1,29.56
+Central,Oklahoma,United States,1283.0,279.6775,6,6,0.1,21.8
+EMEA,Sistan Va Baluchestan,Iran,1276.0,183.45,4,4,0.1,14.38
+Central Asia,Bihar,India,1275.0,247.62,5,5,0.1,19.42
+South,Roraima,Brazil,1275.0,203.45736,2,2,0.1,15.96
+Central Asia,Telangana,India,1269.0,271.83,5,5,0.1,21.42
+North Asia,Inner Mongolia,China,1267.0,167.76,3,3,0.1,13.24
+East,Connecticut,United States,1254.0,464.9946,13,13,0.1,37.08
+Central,North Holland,Netherlands,1254.0,-508.665,13,13,0.1,-40.56
+Central,Upper Austria,Austria,1244.0,271.74,5,5,0.1,21.84
+EMEA,Dnipropetrovs'k,Ukraine,1242.0,349.62,10,10,0.1,28.15
+North,Nayarit,Mexico,1231.0,132.14816000000002,5,5,0.1,10.74
+Central,Missouri,United States,1230.0,364.68240000000003,10,10,0.1,29.65
+Central,Limousin,France,1221.0,147.354,2,2,0.1,12.07
+North Asia,Fujian,China,1219.0,218.82,5,5,0.1,17.95
+EMEA,Hrodna,Belarus,1215.0,310.95,4,4,0.09,25.59
+South,Santa Fe,Argentina,1204.0,-405.812,6,6,0.09,-33.71
+South,Santa Catarina,Brazil,1197.0,-153.72,10,10,0.09,-12.84
+EMEA,Dagestan,Russia,1197.0,411.87,8,8,0.09,34.41
+North,Västra Götaland,Sweden,1186.0,-258.108,5,5,0.09,-21.76
+Canada,Saskatchewan,Canada,1179.0,254.97,2,2,0.09,21.63
+Southeast Asia,Perak,Malaysia,1147.0,270.33,3,3,0.09,23.57
+EMEA,Baki,Azerbaijan,1145.0,276.51,6,6,0.09,24.15
+Africa,Copperbelt,Zambia,1135.0,314.13,5,5,0.09,27.68
+Central,La Libertad,El Salvador,1126.0,243.06824,4,4,0.09,21.59
+North Asia,Hubei,China,1123.0,112.53,8,8,0.09,10.02
+EMEA,Al Basrah,Iraq,1112.0,357.84,8,8,0.09,32.18
+EMEA,Timis,Romania,1112.0,267.99,3,3,0.09,24.1
+EMEA,Iasi,Romania,1107.0,130.35,1,1,0.09,11.78
+South,Mato Grosso do Sul,Brazil,1101.0,180.55576,3,3,0.09,16.4
+EMEA,Haifa,Israel,1100.0,149.88,2,2,0.09,13.63
+North Asia,Tokyo,Japan,1098.0,163.95,4,4,0.09,14.93
+North,San Luis Potosí,Mexico,1095.0,222.748,7,7,0.09,20.34
+Central Asia,Central,Nepal,1091.0,281.13,3,3,0.09,25.77
+Caribbean,Guadeloupe,Guadeloupe,1088.0,358.42,2,2,0.08,32.94
+Southeast Asia,Th? Dô Hà N?i,Vietnam,1077.0,13.227000000000011,6,6,0.08,1.23
+EMEA,Qazvin,Iran,1066.0,94.32,3,3,0.08,8.85
+North,Tabasco,Mexico,1056.0,254.61200000000002,4,4,0.08,24.11
+Caribbean,Isla de la Juventud,Cuba,1051.0,232.28,5,5,0.08,22.1
+South,Mississippi,United States,1047.0,396.4376,3,3,0.08,37.86
+EMEA,Ninawa,Iraq,1040.0,281.04,7,7,0.08,27.02
+EMEA,Chelyabinsk,Russia,1040.0,153.51000000000002,3,3,0.08,14.76
+EMEA,Zanjan,Iran,1038.0,306.15,3,3,0.08,29.49
+South,Abruzzi,Italy,1038.0,197.01,4,4,0.08,18.98
+Southeast Asia,Calabarzon,Philippines,1035.0,-117.5625,5,5,0.08,-11.36
+East,Rhode Island,United States,1021.0,310.8447,6,6,0.08,30.45
+Caribbean,Villa Clara,Cuba,1021.0,188.26080000000002,5,5,0.08,18.44
+Central Asia,Chhattisgarh,India,1016.0,189.36,3,3,0.08,18.64
+North Asia,Shaanxi,China,1011.0,224.45999999999998,2,2,0.08,22.2
+West,New Mexico,United States,1003.0,298.9745,4,4,0.08,29.81
+EMEA,Federation of Bosnia and Herzegovina,Bosnia and Herzegovina,1000.0,198.39,4,4,0.08,19.84
+South,Galicia,Spain,996.0,223.86599999999999,5,5,0.08,22.48
+Southeast Asia,Nusa Tenggara Barat,Indonesia,976.0,17.685299999999987,2,2,0.08,1.81
+Central,León,Nicaragua,970.0,130.58,9,8,0.08,13.46
+Southeast Asia,Riau,Indonesia,966.0,-86.4819,6,6,0.08,-8.95
+Canada,Quebec,Canada,962.0,165.87,5,5,0.08,17.24
+EMEA,Tabuk,Saudi Arabia,958.0,155.55,2,2,0.07,16.24
+Oceania,Canterbury,New Zealand,957.0,159.06,5,5,0.07,16.62
+Caribbean,Cienfuegos,Cuba,956.0,156.08,4,4,0.07,16.33
+Southeast Asia,Sabah,Malaysia,953.0,206.19,3,3,0.07,21.64
+Central,Tyrol,Austria,952.0,65.31,2,2,0.07,6.86
+South,Bolívar,Colombia,944.0,168.61412,3,3,0.07,17.86
+South,Risaralda,Colombia,940.0,236.58,2,2,0.07,25.17
+Oceania,Bay of Plenty,New Zealand,938.0,268.5,7,7,0.07,28.62
+EMEA,Ash Sharqiyah,Saudi Arabia,937.0,177.51,1,1,0.07,18.94
+North Asia,Guangxi,China,930.0,174.48,3,3,0.07,18.76
+South,Distrito Capital,Venezuela,927.0,-149.60371999999998,4,4,0.07,-16.14
+Africa,Coast,Kenya,924.0,131.37,5,5,0.07,14.22
+EMEA,Sumy,Ukraine,922.0,147.12,1,1,0.07,15.96
+Caribbean,Ciego de Ávila,Cuba,919.0,145.38,4,4,0.07,15.82
+South,Ceará,Brazil,917.0,-150.88472,10,10,0.07,-16.45
+Caribbean,Holguín,Cuba,914.0,187.07999999999998,4,4,0.07,20.47
+Central,West Flanders,Belgium,910.0,178.68,2,2,0.07,19.64
+South,Mendoza,Argentina,909.0,-82.652,1,1,0.07,-9.09
+Africa,Nairobi,Kenya,908.0,176.60999999999999,7,7,0.07,19.45
+West,Utah,United States,904.0,164.8753,5,5,0.07,18.24
+EMEA,Beirut,Lebanon,891.0,225.83999999999997,2,2,0.07,25.35
+Southeast Asia,Central Luzon,Philippines,890.0,-50.982,2,2,0.07,-5.73
+EMEA,Yaroslavl',Russia,888.0,126.0,3,3,0.07,14.19
+EMEA,Ivanovo,Russia,883.0,23.34,3,3,0.07,2.64
+South,Sardinia,Italy,883.0,212.70600000000002,3,3,0.07,24.09
+North Asia,Osaka,Japan,880.0,177.78,5,5,0.07,20.2
+Caribbean,La Romana,Dominican Republic,878.0,66.16,6,6,0.07,7.54
+Caribbean,Camagüey,Cuba,878.0,218.4,7,7,0.07,24.87
+South,Guayas,Ecuador,873.0,177.48,2,2,0.07,20.33
+Central,Schleswig-Holstein,Germany,872.0,209.904,5,5,0.07,24.07
+EMEA,Tehran,Iran,872.0,80.19,6,6,0.07,9.2
+Central Asia,Haryana,India,870.0,236.22,5,5,0.07,27.15
+EMEA,Babil,Iraq,868.0,183.63,4,4,0.07,21.16
+EMEA,Astrakhan',Russia,857.0,186.06,3,3,0.07,21.71
+South,Chaco,Argentina,846.0,-65.5836,3,3,0.07,-7.75
+South,Córdoba,Argentina,835.0,-197.83599999999998,3,3,0.07,-23.69
+North,South Denmark,Denmark,825.0,-155.199,2,2,0.06,-18.81
+Canada,British Columbia,Canada,825.0,143.97,9,9,0.06,17.45
+Central,South Holland,Netherlands,823.0,-287.844,9,9,0.06,-34.97
+South,Balearic Islands,Spain,816.0,76.806,3,3,0.06,9.41
+Africa,Al Bahr Al Ahmar,Egypt,812.0,152.43,3,3,0.06,18.77
+South,Castile-La Mancha,Spain,812.0,175.65,5,5,0.06,21.63
+West,Idaho,United States,806.0,189.5042,3,3,0.06,23.51
+EMEA,Qashqadaryo,Uzbekistan,805.0,231.93,3,3,0.06,28.81
+Central,Huehuetenango,Guatemala,803.0,168.26,4,4,0.06,20.95
+South,Norte de Santander,Colombia,799.0,157.14000000000001,1,1,0.06,19.67
+North Asia,Hyogo,Japan,795.0,101.01,2,2,0.06,12.71
+North,Michoacán,Mexico,790.0,146.048,10,10,0.06,18.49
+Central Asia,Kabul,Afghanistan,790.0,152.46,4,4,0.06,19.3
+South,Amazonas,Brazil,789.0,159.92,3,3,0.06,20.27
+North Asia,Jiangxi,China,787.0,289.95,4,4,0.06,36.84
+EMEA,Amman,Jordan,786.0,238.35,4,4,0.06,30.32
+Central,Mecklenburg-Vorpommern,Germany,786.0,8.928000000000004,4,4,0.06,1.14
+Africa,North-West,South Africa,784.0,235.32,4,4,0.06,30.02
+Africa,Red Sea,Sudan,784.0,181.53,5,5,0.06,23.15
+South,Parana,Brazil,783.0,150.6504,8,8,0.06,19.24
+South,Goiás,Brazil,777.0,139.52,4,4,0.06,17.96
+South,Alagoas,Brazil,768.0,-295.604,8,8,0.06,-38.49
+Central,Iowa,United States,761.0,247.8648,4,4,0.06,32.57
+North,Oslo,Norway,759.0,96.47999999999999,4,4,0.06,12.71
+Africa,Lagunes,Cote d'Ivoire,758.0,243.03,7,7,0.06,32.06
+South,South Carolina,United States,754.0,163.15540000000001,5,5,0.06,21.64
+EMEA,Markazi,Iran,752.0,118.23,4,4,0.06,15.72
+Caribbean,Saint Michael,Barbados,750.0,217.29096,4,4,0.06,28.97
+Oceania,Northland,New Zealand,746.0,237.51,3,3,0.06,31.84
+EMEA,Luhans'k,Ukraine,741.0,166.95,4,4,0.06,22.53
+EMEA,Botosani,Romania,740.0,146.70000000000002,2,2,0.06,19.82
+Oceania,Waikato,New Zealand,737.0,148.68,1,1,0.06,20.17
+Central Asia,Sindh,Pakistan,733.0,-85.602,2,2,0.06,-11.68
+EMEA,Ankara,Turkey,727.0,-626.658,20,20,0.06,-86.2
+EMEA,Adana,Turkey,724.0,-515.358,9,8,0.06,-71.18
+Africa,Al Fayyum,Egypt,722.0,258.36,3,3,0.06,35.78
+Africa,Banaadir,Somalia,717.0,48.66,4,4,0.06,6.79
+Africa,Kasai-Oriental,Democratic Republic of the Congo,714.0,81.50999999999999,2,2,0.06,11.42
+Africa,Al Buhayrah,Egypt,711.0,83.61,2,2,0.06,11.76
+South,La Paz,Bolivia,710.0,133.8,3,3,0.06,18.85
+South,Maranhão,Brazil,703.0,3.9919999999999973,4,4,0.05,0.57
+Africa,Alger,Algeria,701.0,229.53,6,6,0.05,32.74
+Africa,Est,Cameroon,699.0,156.12,3,3,0.05,22.33
+South,Louisiana,United States,699.0,162.0618,4,4,0.05,23.18
+Southeast Asia,Khánh Hòa,Vietnam,691.0,29.289900000000003,2,2,0.05,4.24
+North Asia,Oita,Japan,690.0,41.25,2,2,0.05,5.98
+Central,Choluteca,Honduras,688.0,-153.05599999999998,4,4,0.05,-22.25
+Central,Lower Normandy,France,685.0,142.308,5,5,0.05,20.77
+Caribbean,Artemisa,Cuba,681.0,174.48,2,2,0.05,25.62
+EMEA,Kermanshah,Iran,675.0,79.71,2,2,0.05,11.81
+North Asia,Kanagawa,Japan,674.0,192.69000000000003,2,2,0.05,28.59
+Africa,Cidade De Maputo,Mozambique,674.0,49.260000000000005,2,2,0.05,7.31
+Africa,Oran,Algeria,672.0,218.4,4,4,0.05,32.5
+North,Morelos,Mexico,667.0,208.84,4,4,0.05,31.31
+Africa,Lusaka,Zambia,651.0,210.06,3,3,0.05,32.27
+Africa,Meknès-Tafilalet,Morocco,647.0,134.61,2,2,0.05,20.81
+EMEA,Izmir,Turkey,645.0,-480.024,12,12,0.05,-74.42
+EMEA,Valcea,Romania,644.0,125.04,1,1,0.05,19.42
+North Asia,Yamaguchi,Japan,643.0,2.58,2,2,0.05,0.4
+Central,Franche-Comté,France,637.0,163.002,4,4,0.05,25.59
+EMEA,Nitra,Slovakia,637.0,34.32,1,1,0.05,5.39
+EMEA,Grad Zagreb,Croatia,634.0,167.28,4,4,0.05,26.38
+Central,Auvergne,France,633.0,152.904,5,5,0.05,24.16
+Central Asia,Chittagong,Bangladesh,632.0,248.76,3,3,0.05,39.36
+EMEA,Qom,Iran,626.0,219.18,5,5,0.05,35.01
+Central,East Flanders,Belgium,625.0,161.25,5,5,0.05,25.8
+Africa,Adamaoua,Cameroon,624.0,52.8,3,3,0.05,8.46
+North Asia,Jeju,South Korea,622.0,-22.32,1,1,0.05,-3.59
+Central,North Brabant,Netherlands,621.0,-177.084,6,6,0.05,-28.52
+North Asia,Gyeonggi,South Korea,618.0,-45.108000000000004,3,3,0.05,-7.3
+Central Asia,Kerala,India,617.0,117.51,4,4,0.05,19.05
+East,Maine,United States,617.0,256.9266,1,1,0.05,41.64
+Africa,Banghazi,Libya,615.0,186.24,3,3,0.05,30.28
+Caribbean,Saint Catherine,Jamaica,614.0,195.12,3,3,0.05,31.78
+EMEA,Kordestan,Iran,609.0,210.84,4,4,0.05,34.62
+Central,Masaya,Nicaragua,607.0,58.74,2,2,0.05,9.68
+Africa,Tanger-Tétouan,Morocco,605.0,191.94,3,3,0.05,31.73
+South,Rio Grande do Norte,Brazil,600.0,-97.82048,2,2,0.05,-16.3
+South,Sergipe,Brazil,599.0,70.98,2,2,0.05,11.85
+Caribbean,Sancti Spíritus,Cuba,596.0,157.94,2,2,0.05,26.5
+Central,Estelí,Nicaragua,593.0,71.0,3,3,0.05,11.97
+EMEA,Kherson,Ukraine,591.0,163.14,2,2,0.05,27.6
+Africa,Diana,Madagascar,589.0,137.13,2,2,0.05,23.28
+South,Santander,Colombia,586.0,181.28,3,3,0.05,30.94
+EMEA,Stavropol',Russia,585.0,93.60000000000001,1,1,0.05,16.0
+Africa,Eastern,Sierra Leone,581.0,57.18000000000001,1,1,0.05,9.84
+South,Provincia de Buenos Aires,Argentina,574.0,-70.292,3,3,0.04,-12.25
+Southeast Asia,Bali,Indonesia,574.0,-36.0693,4,4,0.04,-6.28
+Caribbean,Duarte,Dominican Republic,571.0,29.5538,4,4,0.04,5.18
+EMEA,Ulaanbaatar,Mongolia,570.0,60.93,2,2,0.04,10.69
+Africa,Sidi Bel Abbes,Algeria,569.0,98.67,1,1,0.04,17.34
+Central,Chiriquí,Panama,567.0,-200.56,4,4,0.04,-35.37
+Central Asia,Jharkhand,India,566.0,172.26,4,4,0.04,30.43
+Central,Yoro,Honduras,566.0,-166.268,6,6,0.04,-29.38
+EMEA,Kharkiv,Ukraine,564.0,218.58,6,6,0.04,38.76
+North Asia,Ibaraki,Japan,563.0,-85.41000000000001,1,1,0.04,-15.17
+Central,Hainaut,Belgium,562.0,159.78,3,3,0.04,28.43
+Central Asia,F.C.T.,Pakistan,560.0,48.02100000000001,2,2,0.04,8.58
+North Asia,Gyeongsangnam,South Korea,560.0,92.625,2,2,0.04,16.54
+EMEA,Bacau,Romania,558.0,162.6,2,2,0.04,29.14
+Central,Nebraska,United States,557.0,202.7533,7,7,0.04,36.4
+Central,Matagalpa,Nicaragua,556.0,155.48000000000002,3,3,0.04,27.96
+Central,Brandenburg,Germany,551.0,91.422,3,3,0.04,16.59
+South,Ayacucho,Peru,550.0,-5.192,2,2,0.04,-0.94
+EMEA,Brasov,Romania,549.0,60.03,3,3,0.04,10.93
+EMEA,Mykolayiv,Ukraine,544.0,56.339999999999996,1,1,0.04,10.36
+EMEA,Silesia,Poland,543.0,88.11,4,4,0.04,16.23
+Central Asia,Andhra Pradesh,India,543.0,95.22000000000001,2,2,0.04,17.54
+Africa,Kigali,Rwanda,542.0,131.49,3,3,0.04,24.26
+North Asia,Gunma,Japan,540.0,-12.93,1,1,0.04,-2.39
+North Asia,Beijing,China,540.0,134.57999999999998,3,3,0.04,24.92
+EMEA,Chisinau,Moldova,532.0,112.38,4,4,0.04,21.12
+South,Zulia,Venezuela,532.0,-30.523999999999997,4,4,0.04,-5.74
+EMEA,Constanta,Romania,531.0,90.3,1,1,0.04,17.01
+South,Central,Paraguay,528.0,152.86,4,4,0.04,28.95
+North,Baja California Sur,Mexico,524.0,10.44,1,1,0.04,1.99
+South,Chuquisaca,Bolivia,519.0,129.82,1,1,0.04,25.01
+Africa,Centre,Cameroon,517.0,134.13,3,3,0.04,25.94
+North Asia,Guizhou,China,516.0,120.86999999999999,3,3,0.04,23.42
+Central Asia,Rajshahi,Bangladesh,514.0,98.64,2,2,0.04,19.19
+EMEA,Burgas,Bulgaria,512.0,92.04,1,1,0.04,17.98
+Southeast Asia,T?nh C?n Th?,Vietnam,511.0,29.635800000000003,1,1,0.04,5.8
+Central,Colón,Panama,509.0,-8.52,1,1,0.04,-1.67
+EMEA,Namangan,Uzbekistan,507.0,107.25,2,2,0.04,21.15
+North,Campeche,Mexico,505.0,19.36,5,5,0.04,3.83
+EMEA,Lubusz,Poland,503.0,184.38,1,1,0.04,36.66
+Central,Groningen,Netherlands,501.0,-139.035,4,4,0.04,-27.75
+Caribbean,San Fernando,Trinidad and Tobago,494.0,91.94,3,3,0.04,18.61
+South,Pará,Brazil,493.0,136.72,3,3,0.04,27.73
+EMEA,Dayr Az Zawr,Syria,493.0,66.36,1,1,0.04,13.46
+EMEA,Dhi Qar,Iraq,491.0,80.52,3,3,0.04,16.4
+Central Asia,Western,Sri Lanka,473.0,16.8,1,1,0.04,3.55
+Central,Styria,Austria,471.0,86.16,3,3,0.04,18.29
+Africa,Huambo,Angola,465.0,105.09,2,2,0.04,22.6
+EMEA,Hamadan,Iran,463.0,75.96000000000001,5,5,0.04,16.41
+Central Asia,Jammu and Kashmir,India,463.0,38.669999999999995,2,2,0.04,8.35
+East,New Hampshire,United States,462.0,176.0998,4,4,0.04,38.12
+Africa,Iringa,Tanzania,462.0,-46.332,1,1,0.04,-10.03
+EMEA,Hormozgan,Iran,454.0,129.32999999999998,2,2,0.04,28.49
+EMEA,Mersin,Turkey,452.0,-367.542,9,9,0.04,-81.31
+Central Asia,Hirat,Afghanistan,448.0,128.85,1,1,0.03,28.76
+EMEA,Bihor,Romania,448.0,113.22,2,2,0.03,25.27
+Central Asia,Nangarhar,Afghanistan,447.0,140.31,1,1,0.03,31.39
+North,Hordaland,Norway,445.0,76.95,2,2,0.03,17.29
+EMEA,Brest,Belarus,445.0,120.66,4,4,0.03,27.11
+Africa,Southern,Rwanda,441.0,97.59,2,2,0.03,22.13
+Oceania,Southland,New Zealand,441.0,127.32000000000001,2,2,0.03,28.87
+Africa,Constantine,Algeria,440.0,117.96000000000001,2,2,0.03,26.81
+Africa,Arusha,Tanzania,438.0,130.74,2,2,0.03,29.85
+Africa,Djelfa,Algeria,436.0,84.36,2,2,0.03,19.35
+Central Asia,Assam,India,432.0,108.81,2,2,0.03,25.19
+EMEA,Braila,Romania,428.0,156.12,2,2,0.03,36.48
+North,Dublin,Ireland,423.0,-186.39000000000001,6,6,0.03,-44.06
+Africa,Bamako,Mali,421.0,87.81,4,4,0.03,20.86
+Africa,Vallee Du Bandama,Cote d'Ivoire,415.0,107.76,1,1,0.03,25.97
+North Asia,Daegu,South Korea,414.0,-159.54000000000002,2,2,0.03,-38.54
+Africa,Boeny,Madagascar,414.0,66.24,1,1,0.03,16.0
+EMEA,Shkodër,Albania,412.0,87.50999999999999,1,1,0.03,21.24
+EMEA,Antalya,Turkey,411.0,-356.05199999999996,3,3,0.03,-86.63
+EMEA,Gilan,Iran,408.0,106.05,5,5,0.03,25.99
+EMEA,Esfahan,Iran,406.0,100.05,3,3,0.03,24.64
+EMEA,Yazd,Iran,401.0,101.22,3,3,0.03,25.24
+Africa,Mwanza,Tanzania,400.0,56.04600000000001,4,4,0.03,14.01
+Central,Liège,Belgium,398.0,59.64,1,1,0.03,14.98
+Central Asia,Khyber Pakhtunkhwa,Pakistan,393.0,94.02,1,1,0.03,23.92
+North,Chiapas,Mexico,393.0,61.955999999999996,5,5,0.03,15.76
+Central,Granada,Nicaragua,385.0,129.12,3,3,0.03,33.54
+EMEA,Chernihiv,Ukraine,384.0,116.82,3,3,0.03,30.42
+EMEA,Vienna,Austria,383.0,78.75,5,5,0.03,20.56
+Africa,Khartoum,Sudan,382.0,59.97,3,3,0.03,15.7
+Southeast Asia,Sarawak,Malaysia,378.0,98.19,2,2,0.03,25.98
+North Asia,Aichi,Japan,374.0,68.04,2,2,0.03,18.19
+EMEA,Kaliningrad,Russia,366.0,52.02,4,4,0.03,14.21
+EMEA,Mehedinti,Romania,360.0,21.6,1,1,0.03,6.0
+EMEA,Lesser Poland,Poland,360.0,42.21,1,1,0.03,11.73
+South,Mato Grosso,Brazil,357.0,57.14,1,1,0.03,16.01
+Central Asia,Khulna,Bangladesh,354.0,109.71,1,1,0.03,30.99
+EMEA,Bishkek,Kyrgyzstan,354.0,96.81,4,4,0.03,27.35
+Africa,Lacs,Cote d'Ivoire,352.0,121.32000000000001,1,1,0.03,34.47
+North Asia,Kagawa,Japan,343.0,152.80200000000002,1,1,0.03,44.55
+North Asia,Ulsan,South Korea,341.0,47.675999999999995,1,1,0.03,13.98
+South,Monagas,Venezuela,341.0,21.71712,2,2,0.03,6.37
+Central Asia,Odisha,India,339.0,101.04,2,2,0.03,29.81
+South,Porto,Portugal,339.0,-204.495,3,3,0.03,-60.32
+Oceania,Otago,New Zealand,337.0,-39.480000000000004,1,1,0.03,-11.72
+EMEA,Prague,Czech Republic,334.0,106.32000000000001,5,5,0.03,31.83
+Africa,Guelma,Algeria,331.0,10.530000000000001,1,1,0.03,3.18
+Central Asia,Uttarakhand,India,330.0,97.83,2,2,0.03,29.65
+Africa,Ashanti,Ghana,330.0,54.21,2,2,0.03,16.43
+South,Friuli-Venezia Giulia,Italy,324.0,45.75,2,2,0.03,14.12
+Southeast Asia,Trengganu,Malaysia,324.0,79.74000000000001,2,2,0.03,24.61
+South,Liguria,Italy,321.0,142.70999999999998,3,3,0.03,44.46
+Southeast Asia,Sumatera Barat,Indonesia,319.0,-132.795,4,4,0.02,-41.63
+Africa,Gezira,Sudan,317.0,76.86,3,3,0.02,24.25
+Africa,Kasai-Occidental,Democratic Republic of the Congo,316.0,47.64,3,3,0.02,15.08
+Africa,Maritime,Togo,312.0,73.28999999999999,4,4,0.02,23.49
+Africa,Bas-Congo,Democratic Republic of the Congo,311.0,61.17,2,2,0.02,19.67
+Central,Sonsonate,El Salvador,309.0,91.75999999999999,4,4,0.02,29.7
+Africa,Ziguinchor,Senegal,309.0,27.72,1,1,0.02,8.97
+South,Pichincha,Ecuador,307.0,28.78,2,2,0.02,9.37
+South,Lisboa,Portugal,304.0,-176.505,3,3,0.02,-58.06
+EMEA,Osh,Kyrgyzstan,302.0,99.03,1,1,0.02,32.79
+Africa,Niassa,Mozambique,301.0,54.510000000000005,1,1,0.02,18.11
+EMEA,Asir,Saudi Arabia,301.0,113.37,2,2,0.02,37.66
+Oceania,Marlborough,New Zealand,299.0,68.76,1,1,0.02,23.0
+South,Piauí,Brazil,298.0,17.93564,2,2,0.02,6.02
+South,Antioquia,Colombia,297.0,46.14,3,3,0.02,15.54
+South,Acre,Brazil,297.0,114.02,2,2,0.02,38.39
+South,Valle del Cauca,Colombia,292.0,66.7,2,2,0.02,22.84
+EMEA,Cherkasy,Ukraine,287.0,116.88000000000001,2,2,0.02,40.72
+West,Nevada,United States,287.0,98.6599,6,6,0.02,34.38
+EMEA,Ardabil,Iran,286.0,107.16,3,3,0.02,37.47
+North,Wales,United Kingdom,285.0,39.120000000000005,2,2,0.02,13.73
+Southeast Asia,Selangor,Malaysia,285.0,71.91,2,2,0.02,25.23
+North,Buskerud,Norway,284.0,125.16000000000001,2,2,0.02,44.07
+Central,Vaud,Switzerland,283.0,12.57,2,2,0.02,4.44
+Caribbean,La Vega,Dominican Republic,282.0,1.7719999999999976,2,2,0.02,0.63
+Africa,Kano,Nigeria,282.0,-359.997,4,4,0.02,-127.66
+EMEA,Gaziantep,Turkey,281.0,-255.102,3,3,0.02,-90.78
+Africa,Nyanza,Kenya,281.0,32.910000000000004,1,1,0.02,11.71
+South,Misiones,Argentina,278.0,-128.388,1,1,0.02,-46.18
+Caribbean,Mayabeque,Cuba,278.0,116.8,1,1,0.02,42.01
+Africa,Southern,Zambia,278.0,55.47,1,1,0.02,19.95
+Africa,Rivers,Nigeria,277.0,-389.808,5,5,0.02,-140.72
+South,Corrientes,Argentina,276.0,-62.53,1,1,0.02,-22.66
+South,Piura,Peru,276.0,-55.248,1,1,0.02,-20.02
+South,Santiago del Estero,Argentina,275.0,24.769999999999996,1,1,0.02,9.01
+North Asia,Hong Kong,Hong Kong,274.0,73.08,2,2,0.02,26.67
+Southeast Asia,Sulawesi Utara,Indonesia,273.0,-97.81139999999999,1,1,0.02,-35.83
+Africa,Ruvuma,Tanzania,273.0,-12.204,1,1,0.02,-4.47
+Africa,Ash Sharqiyah,Egypt,273.0,68.76,1,1,0.02,25.19
+EMEA,Greater Poland,Poland,271.0,69.24000000000001,2,2,0.02,25.55
+South,Santa Cruz,Bolivia,270.0,47.68,2,2,0.02,17.66
+North,Zacatecas,Mexico,269.0,-2.0119999999999996,1,1,0.02,-0.75
+Caribbean,Matanzas,Cuba,268.0,55.22,4,4,0.02,20.6
+South,Tolima,Colombia,266.0,46.040000000000006,3,3,0.02,17.31
+South,Federal District,Brazil,266.0,48.58,2,2,0.02,18.26
+Southeast Asia,Nakhon Ratchasima,Thailand,265.0,-79.953,2,2,0.02,-30.17
+Africa,Djibouti,Djibouti,264.0,65.61,2,2,0.02,24.85
+EMEA,Lodz,Poland,264.0,65.31,3,3,0.02,24.74
+Africa,Orientale,Democratic Republic of the Congo,262.0,77.67,2,2,0.02,29.65
+EMEA,Denizli,Turkey,261.0,-211.314,2,2,0.02,-80.96
+Africa,Marrakech-Tensift-El Haouz,Morocco,258.0,70.56,2,2,0.02,27.35
+Southeast Asia,Jambi,Indonesia,257.0,46.269,1,1,0.02,18.0
+Africa,Alibori,Benin,257.0,31.08,1,1,0.02,12.09
+EMEA,Galati,Romania,255.0,85.11,2,2,0.02,33.38
+EMEA,Arkhangel'sk,Russia,255.0,99.27000000000001,3,3,0.02,38.93
+EMEA,Vitsyebsk,Belarus,255.0,54.18,1,1,0.02,21.25
+Africa,Limpopo,South Africa,252.0,108.36,1,1,0.02,43.0
+EMEA,Bursa,Turkey,249.0,-166.278,4,4,0.02,-66.78
+South,Montevideo,Uruguay,248.0,52.52,5,5,0.02,21.18
+EMEA,Podgorica,Montenegro,246.0,93.48,1,1,0.02,38.0
+Africa,Niamey,Niger,245.0,49.47,3,3,0.02,20.19
+North,Cork,Ireland,244.0,-40.68,3,3,0.02,-16.67
+South,Alabama,United States,243.0,77.8354,5,5,0.02,32.03
+Southeast Asia,Negeri Sembilan,Malaysia,242.0,66.33,1,1,0.02,27.41
+Oceania,Hawke's Bay,New Zealand,242.0,108.42,2,2,0.02,44.8
+South,Magallanes y Antártica Chilena,Chile,239.0,86.08,1,1,0.02,36.02
+EMEA,Corum,Turkey,236.0,-191.52,2,2,0.02,-81.15
+Africa,Nord,Cameroon,236.0,36.27,4,4,0.02,15.37
+Africa,Free State,South Africa,235.0,89.4,1,1,0.02,38.04
+Central,Cuscatlán,El Salvador,235.0,54.84,3,3,0.02,23.34
+Africa,Zinder,Niger,232.0,71.76,1,1,0.02,30.93
+South,La Pampa,Argentina,230.0,-85.556,1,1,0.02,-37.2
+EMEA,Kirovohrad,Ukraine,229.0,36.6,1,1,0.02,15.98
+South,Anzoátegui,Venezuela,229.0,-42.379999999999995,1,1,0.02,-18.51
+Central,Champagne-Ardenne,France,228.0,-125.565,2,2,0.02,-55.07
+Africa,Kaduna,Nigeria,222.0,-307.71,5,5,0.02,-138.61
+Africa,Asyut,Egypt,222.0,62.7,1,1,0.02,28.24
+Africa,Taza-Al Hoceima-Taounate,Morocco,221.0,30.33,2,2,0.02,13.72
+Southeast Asia,Kalimantan Timur,Indonesia,219.0,-89.3343,3,3,0.02,-40.79
+Africa,Kayes,Mali,219.0,55.89,1,1,0.02,25.52
+Africa,Tunis,Tunisia,219.0,59.97,3,3,0.02,27.38
+EMEA,Hunedoara,Romania,218.0,74.75999999999999,1,1,0.02,34.29
+EMEA,Varna,Bulgaria,218.0,32.879999999999995,3,3,0.02,15.08
+Africa,Kigoma,Tanzania,218.0,25.53,2,2,0.02,11.71
+Central,Quezaltenango,Guatemala,214.0,51.660000000000004,3,3,0.02,24.14
+EMEA,Plovdiv,Bulgaria,214.0,85.22999999999999,2,2,0.02,39.83
+Africa,Kassala,Sudan,212.0,86.88,1,1,0.02,40.98
+Central Asia,Chandigarh,India,212.0,83.97,1,1,0.02,39.61
+North Asia,Busan,South Korea,211.0,-118.23,1,1,0.02,-56.03
+Central,Burgundy,France,211.0,34.704,2,2,0.02,16.45
+EMEA,Sibiu,Romania,210.0,53.64,1,1,0.02,25.54
+Africa,Equateur,Democratic Republic of the Congo,207.0,76.56,1,1,0.02,36.99
+Africa,Haute-Matsiatra,Madagascar,206.0,48.839999999999996,1,1,0.02,23.71
+Africa,Littoral,Cameroon,206.0,54.089999999999996,2,2,0.02,26.26
+East,Vermont,United States,205.0,67.6599,1,1,0.02,33.0
+Central,Chimaltenango,Guatemala,205.0,53.84,1,1,0.02,26.26
+EMEA,Tbilisi,Georgia,205.0,55.56,2,2,0.02,27.1
+Southeast Asia,Cordillera,Philippines,204.0,-79.7715,1,1,0.02,-39.1
+Africa,Oyo,Nigeria,203.0,-282.699,6,5,0.02,-139.26
+EMEA,Sivas,Turkey,201.0,-130.974,2,2,0.02,-65.16
+Africa,Gharb-Chrarda-Béni Hssen,Morocco,199.0,91.08,2,2,0.02,45.77
+Africa,Mbeya,Tanzania,198.0,31.44,2,2,0.02,15.88
+EMEA,Homyel',Belarus,198.0,52.41,4,4,0.02,26.47
+EMEA,Mazandaran,Iran,197.0,43.95,4,4,0.02,22.31
+South,Valparaíso,Chile,197.0,48.66,2,2,0.02,24.7
+Central,Overijssel,Netherlands,196.0,-155.77499999999998,4,4,0.02,-79.48
+North,Vest-Agder,Norway,195.0,62.28,1,1,0.02,31.94
+North,Skåne,Sweden,194.0,-27.225,1,1,0.02,-14.03
+Canada,Nova Scotia,Canada,193.0,23.16,1,1,0.02,12.0
+South,Bolivar,Venezuela,191.0,-23.38,1,1,0.01,-12.24
+Central,Zürich,Switzerland,190.0,19.95,1,1,0.01,10.5
+EMEA,Ad Dawhah,Qatar,188.0,89.10000000000001,1,1,0.01,47.39
+EMEA,Rivne,Ukraine,186.0,82.17,1,1,0.01,44.18
+Africa,Mostaganem,Algeria,186.0,7.08,2,2,0.01,3.81
+EMEA,Hims,Syria,185.0,-21.984,2,2,0.01,-11.88
+North Asia,Nagasaki,Japan,182.0,38.07,1,1,0.01,20.92
+EMEA,Karbala',Iraq,180.0,37.71,2,2,0.01,20.95
+EMEA,Moravian-Silesian,Czech Republic,180.0,37.8,1,1,0.01,21.0
+Central,Kansas,United States,176.0,53.0945,3,3,0.01,30.17
+Africa,Annaba,Algeria,173.0,21.39,1,1,0.01,12.36
+South,Sucre,Venezuela,173.0,-58.612,1,1,0.01,-33.88
+EMEA,Lublin,Poland,172.0,116.13000000000001,2,2,0.01,67.52
+South,Aragua,Venezuela,168.0,-44.268,2,2,0.01,-26.35
+Africa,Bissau,Guinea-Bissau,167.0,38.43,2,2,0.01,23.01
+Africa,Kankan,Guinea,167.0,28.02,1,1,0.01,16.78
+EMEA,Kerman,Iran,167.0,9.09,3,3,0.01,5.44
+South,Guárico,Venezuela,162.0,-25.9,2,2,0.01,-15.99
+Africa,Bandundu,Democratic Republic of the Congo,161.0,15.9,1,1,0.01,9.88
+South,Rondônia,Brazil,159.0,29.88,2,2,0.01,18.79
+Africa,Northern,Zambia,157.0,59.19,1,1,0.01,37.7
+North,Rogaland,Norway,156.0,25.08,2,2,0.01,16.08
+Africa,Skikda,Algeria,153.0,70.08,1,1,0.01,45.8
+EMEA,Konya,Turkey,153.0,-120.732,3,3,0.01,-78.91
+Africa,Rift Valley,Kenya,151.0,47.76,2,2,0.01,31.63
+Africa,Litoral,Equatorial Guinea,150.0,44.46,1,1,0.01,29.64
+North Asia,Hebei,China,148.0,19.47,2,2,0.01,13.16
+South,Melilla,Spain,145.0,32.46,1,1,0.01,22.39
+North Asia,Shizuoka,Japan,144.0,63.27,1,1,0.01,43.94
+Africa,Harare,Zimbabwe,143.0,-283.023,4,4,0.01,-197.92
+EMEA,Lorestan,Iran,143.0,51.6,1,1,0.01,36.08
+Southeast Asia,Western Visayas,Philippines,140.0,25.177500000000002,1,1,0.01,17.98
+Africa,Dire Dawa,Ethiopia,138.0,60.36,1,1,0.01,43.74
+South,Quindío,Colombia,138.0,51.04,1,1,0.01,36.99
+Southeast Asia,Maluku,Indonesia,136.0,9.9801,1,1,0.01,7.34
+EMEA,Ljubljana,Slovenia,136.0,20.16,1,1,0.01,14.82
+Africa,Zamfara,Nigeria,136.0,-191.028,1,1,0.01,-140.46
+South,Magdalena,Colombia,135.0,36.56,1,1,0.01,27.08
+EMEA,Gyor,Hungary,134.0,32.43,1,1,0.01,24.2
+Central,Antwerp,Belgium,130.0,37.29,2,2,0.01,28.68
+Africa,Morogoro,Tanzania,130.0,20.13,1,1,0.01,15.48
+Oceania,Manawatu-Wanganui,New Zealand,129.0,28.98,2,2,0.01,22.47
+EMEA,Qaraghandy,Kazakhstan,129.0,-137.487,3,3,0.01,-106.58
+EMEA,Ajman,United Arab Emirates,126.0,-175.626,3,3,0.01,-139.39
+Central,Saarland,Germany,125.0,-1.6920000000000006,1,1,0.01,-1.35
+EMEA,Kayseri,Turkey,124.0,-88.01400000000001,3,3,0.01,-70.98
+Africa,Khomas,Namibia,124.0,13.56,2,2,0.01,10.94
+North,Hovedstaden,Denmark,122.0,-96.063,3,2,0.01,-78.74
+EMEA,Almaty City,Kazakhstan,122.0,-161.805,3,3,0.01,-132.63
+Africa,Al Gharbiyah,Egypt,121.0,41.01,1,1,0.01,33.89
+Africa,Thies,Senegal,120.0,21.9,1,1,0.01,18.25
+Africa,Misratah,Libya,116.0,22.740000000000002,1,1,0.01,19.6
+EMEA,Sevastopol',Ukraine,116.0,30.06,1,1,0.01,25.91
+Africa,South Kivu,Democratic Republic of the Congo,114.0,4.65,1,1,0.01,4.08
+Africa,Diffa,Niger,113.0,26.76,1,1,0.01,23.68
+EMEA,Irkutsk,Russia,113.0,53.940000000000005,1,1,0.01,47.73
+Central Asia,Sylhet,Bangladesh,110.0,36.12,1,1,0.01,32.84
+EMEA,Mardin,Turkey,110.0,-106.85399999999998,4,4,0.01,-97.14
+Central,Limburg,Netherlands,110.0,-82.23,1,1,0.01,-74.75
+Africa,Sud-Ouest,Cameroon,110.0,5.49,1,1,0.01,4.99
+South,Asturias,Spain,109.0,28.944,1,1,0.01,26.55
+Africa,Shinyanga,Tanzania,107.0,27.81,1,1,0.01,25.99
+EMEA,Balti,Moldova,107.0,25.2,1,1,0.01,23.55
+Central,Salzburg,Austria,107.0,8.58,1,1,0.01,8.02
+Africa,Cross River,Nigeria,105.0,-122.928,3,3,0.01,-117.07
+Canada,Newfoundland,Canada,103.0,9.24,1,1,0.01,8.97
+EMEA,Arges,Romania,103.0,12.3,1,1,0.01,11.94
+EMEA,Salzburg,Austria,103.0,26.55,1,1,0.01,25.78
+Canada,Manitoba,Canada,102.0,16.98,2,2,0.01,16.65
+North,Finland Proper,Finland,100.0,16.02,1,1,0.01,16.02
+Central Asia,Baluchistan,Pakistan,100.0,-48.495000000000005,2,2,0.01,-48.5
+North Asia,Taipei City,Taiwan,99.0,24.360000000000003,2,2,0.01,24.61
+Africa,Souss-Massa-Draâ,Morocco,99.0,11.1,2,2,0.01,11.21
+Africa,Northern,Ghana,99.0,15.69,2,2,0.01,15.85
+EMEA,Arbil,Iraq,94.0,37.739999999999995,2,2,0.01,40.15
+Africa,Plateau,Nigeria,94.0,-110.982,3,3,0.01,-118.07
+North,Värmland,Sweden,92.0,-34.2,1,1,0.01,-37.17
+Africa,Al Minya,Egypt,92.0,20.91,3,3,0.01,22.73
+Southeast Asia,Kalimantan Barat,Indonesia,92.0,-4.5993,2,2,0.01,-5.0
+North,Uppsala,Sweden,91.0,-61.65,1,1,0.01,-67.75
+North,Guerrero,Mexico,91.0,-87.34400000000001,1,1,0.01,-95.98
+EMEA,Trabzon,Turkey,90.0,-53.184,2,2,0.01,-59.09
+Caribbean,San Cristóbal,Dominican Republic,90.0,0.42399999999999993,3,3,0.01,0.47
+EMEA,Eskisehir,Turkey,89.0,-57.678000000000004,3,3,0.01,-64.81
+EMEA,Diyarbakir,Turkey,88.0,-69.03,2,2,0.01,-78.44
+Central,Corsica,France,88.0,15.84,1,1,0.01,18.0
+Oceania,Taranaki,New Zealand,88.0,21.96,1,1,0.01,24.95
+Africa,Littoral,Benin,88.0,30.72,2,2,0.01,34.91
+Africa,Anambra,Nigeria,88.0,-118.554,2,2,0.01,-134.72
+Africa,Cabo Delgado,Mozambique,88.0,7.32,1,1,0.01,8.32
+EMEA,Ta'izz,Yemen,88.0,-161.26500000000001,2,2,0.01,-183.26
+Africa,Edo,Nigeria,86.0,-106.938,3,3,0.01,-124.35
+South,Espírito Santo,Brazil,86.0,31.4,1,1,0.01,36.51
+South,Basilicata,Italy,86.0,-81.984,1,1,0.01,-95.33
+Africa,Tlemcen,Algeria,84.0,14.1,1,1,0.01,16.79
+EMEA,Zhytomyr,Ukraine,83.0,36.09,1,1,0.01,43.48
+North Asia,Fukuoka,Japan,83.0,19.98,1,1,0.01,24.07
+Africa,Niger,Nigeria,83.0,-184.497,1,1,0.01,-222.29
+EMEA,Nevsehir,Turkey,82.0,-64.134,1,1,0.01,-78.21
+Central,Basel-Stadt,Switzerland,81.0,19.11,2,2,0.01,23.59
+North Asia,Xinjiang Uygur,China,79.0,9.45,1,1,0.01,11.96
+South,Oruro,Bolivia,77.0,126.16,1,1,0.01,163.84
+EMEA,Korçë,Albania,77.0,6.63,1,1,0.01,8.61
+Africa,Kwara,Nigeria,75.0,-96.345,2,2,0.01,-128.46
+EMEA,Kahramanmaras,Turkey,74.0,-47.592,2,2,0.01,-64.31
+Africa,Ouémé,Benin,74.0,6.66,2,2,0.01,9.0
+EMEA,Vilnius,Lithuania,74.0,-99.876,2,2,0.01,-134.97
+EMEA,Sirnak,Turkey,73.0,-34.506,1,1,0.01,-47.27
+EMEA,Panevezys,Lithuania,73.0,-82.683,1,1,0.01,-113.26
+South,Cundinamarca,Colombia,73.0,27.46,1,1,0.01,37.62
+Southeast Asia,Kiên Giang,Vietnam,72.0,-5.2839,1,1,0.01,-7.34
+Africa,Enugu,Nigeria,71.0,-134.784,3,3,0.01,-189.84
+EMEA,Podlaskie,Poland,68.0,10.2,1,1,0.01,15.0
+South,Arica y Parinacota,Chile,68.0,9.48,1,1,0.01,13.94
+South,Portuguesa,Venezuela,67.0,-33.408,1,1,0.01,-49.86
+EMEA,Düzce,Turkey,66.0,-75.504,1,1,0.01,-114.4
+Africa,Imo,Nigeria,66.0,-132.891,2,2,0.01,-201.35
+EMEA,Opole,Poland,62.0,9.93,2,2,0.0,16.02
+EMEA,Qostanay,Kazakhstan,62.0,-111.80100000000002,2,2,0.0,-180.32
+North Asia,Chiba,Japan,62.0,24.3,1,1,0.0,39.19
+Africa,Atakora,Benin,59.0,4.14,1,1,0.0,7.02
+EMEA,Stara Zagora,Bulgaria,59.0,22.35,1,1,0.0,37.88
+North Asia,Aomori,Japan,59.0,11.07,1,1,0.0,18.76
+EMEA,Maysan,Iraq,56.0,14.1,1,1,0.0,25.18
+EMEA,Pleven,Bulgaria,56.0,14.1,1,1,0.0,25.18
+South,Huila,Colombia,54.0,20.3,1,1,0.0,37.59
+Africa,Sud,Cameroon,53.0,24.33,1,1,0.0,45.91
+Africa,Ondo,Nigeria,53.0,-54.828,3,3,0.0,-103.45
+Africa,Nord-Ouest,Cameroon,53.0,18.48,1,1,0.0,34.87
+Africa,Plateaux,Togo,53.0,21.72,1,1,0.0,40.98
+Africa,Bujumbura-Mairie,Burundi,51.0,22.8,1,1,0.0,44.71
+South,Miranda,Venezuela,50.0,1.672,1,1,0.0,3.34
+EMEA,Almaty,Kazakhstan,50.0,-83.397,1,1,0.0,-166.79
+Africa,Grand Gedeh,Liberia,49.0,11.85,1,1,0.0,24.18
+Africa,Katsina,Nigeria,48.0,-63.876,2,2,0.0,-133.07
+Central,Gelderland,Netherlands,47.0,-21.45,1,1,0.0,-45.64
+South,Catamarca,Argentina,46.0,-27.36,1,1,0.0,-59.48
+South,Ceuta,Spain,46.0,0.0,1,1,0.0,0.0
+Africa,Bauchi,Nigeria,46.0,-82.128,1,1,0.0,-178.54
+South,San Juan,Argentina,45.0,0.744,1,1,0.0,1.65
+EMEA,South Khorasan,Iran,44.0,14.46,1,1,0.0,32.86
+EMEA,Sanliurfa,Turkey,44.0,-41.873999999999995,2,2,0.0,-95.17
+North Asia,Hainan,China,44.0,11.28,1,1,0.0,25.64
+Central,Utrecht,Netherlands,44.0,-27.03,3,3,0.0,-61.43
+EMEA,Usak,Turkey,43.0,-36.252,1,1,0.0,-84.31
+South,Salta,Argentina,42.0,-14.602,2,2,0.0,-34.77
+North Asia,Daejeon,South Korea,42.0,-31.95,1,1,0.0,-76.07
+Central,Friesland,Netherlands,42.0,-26.13,1,1,0.0,-62.21
+South,Puno,Peru,42.0,-10.132,1,1,0.0,-24.12
+EMEA,Bryansk,Russia,41.0,4.95,1,1,0.0,12.07
+Africa,Bechar,Algeria,40.0,19.14,1,1,0.0,47.85
+South,Loreto,Peru,40.0,-9.744,1,1,0.0,-24.36
+Africa,Central,Ghana,40.0,10.44,1,1,0.0,26.1
+Africa,Sokoto,Nigeria,38.0,-68.688,1,1,0.0,-180.76
+Caribbean,Peravia,Dominican Republic,37.0,-4.736,1,1,0.0,-12.8
+South,Manabi,Ecuador,36.0,8.2,1,1,0.0,22.78
+EMEA,Kabardino-Balkariya,Russia,35.0,3.12,1,1,0.0,8.91
+Africa,Gombe,Nigeria,35.0,-27.963,1,1,0.0,-79.89
+Africa,Abia,Nigeria,34.0,-58.269,2,2,0.0,-171.38
+EMEA,Igdir,Turkey,34.0,-29.37,1,1,0.0,-86.38
+East,District of Columbia,United States,34.0,13.2288,1,1,0.0,38.91
+EMEA,Zaporizhzhya,Ukraine,33.0,10.86,1,1,0.0,32.91
+EMEA,Plzen,Czech Republic,32.0,12.21,1,1,0.0,38.16
+Africa,Akwa Ibom,Nigeria,31.0,-22.74,1,1,0.0,-73.35
+Africa,Benguela,Angola,30.0,0.6,1,1,0.0,2.0
+Central,Limburg,Belgium,29.0,7.8,1,1,0.0,26.9
+Africa,Abuja Capital Territory,Nigeria,29.0,-55.632,1,1,0.0,-191.83
+EMEA,Malatya,Turkey,29.0,-24.648000000000003,1,1,0.0,-84.99
+North Asia,Ningxia,China,29.0,4.62,1,1,0.0,15.93
+Africa,Borno,Nigeria,28.0,-42.966,1,1,0.0,-153.45
+EMEA,Batman,Turkey,28.0,-28.188,2,2,0.0,-100.67
+Africa,Doukkala-Abda,Morocco,28.0,13.92,1,1,0.0,49.71
+EMEA,Poltava,Ukraine,27.0,9.03,1,1,0.0,33.44
+North Asia,Tottori,Japan,27.0,13.68,1,1,0.0,50.67
+EMEA,Salah Ad Din,Iraq,27.0,0.0,1,1,0.0,0.0
+EMEA,Voronezh,Russia,26.0,0.51,1,1,0.0,1.96
+Africa,Bulawayo,Zimbabwe,26.0,-51.443999999999996,2,2,0.0,-197.86
+EMEA,Hradec Kralove,Czech Republic,25.0,6.84,1,1,0.0,27.36
+Africa,Bejaia,Algeria,25.0,10.86,1,1,0.0,43.44
+South,Callao,Peru,24.0,-3.7039999999999997,1,1,0.0,-15.43
+South,Entre Ríos,Argentina,24.0,3.12,1,1,0.0,13.0
+Africa,Kampala,Uganda,23.0,-17.669999999999998,2,2,0.0,-76.83
+Africa,Fès-Boulemane,Morocco,22.0,10.68,1,1,0.0,48.55
+South,Córdoba,Colombia,22.0,0.0,1,1,0.0,0.0
+EMEA,Belgorod,Russia,22.0,10.68,1,1,0.0,48.55
+South,Ucayali,Peru,22.0,-6.72,1,1,0.0,-30.55
+EMEA,Erzurum,Turkey,21.0,-22.068,1,1,0.0,-105.09
+South,Táchira,Venezuela,20.0,0.984,1,1,0.0,4.92
+Africa,Adamawa,Nigeria,19.0,-21.125999999999998,1,1,0.0,-111.19
+Africa,Woqooyi Galbeed,Somalia,19.0,9.42,1,1,0.0,49.58
+EMEA,Manisa,Turkey,19.0,-12.252,1,1,0.0,-64.48
+Africa,Bani Suwayf,Egypt,19.0,4.2,1,1,0.0,22.11
+South,Jujuy,Argentina,19.0,-8.352,1,1,0.0,-43.96
+EMEA,Pavlodar,Kazakhstan,18.0,-17.994,1,1,0.0,-99.97
+Africa,Jubbada Hoose,Somalia,18.0,6.48,1,1,0.0,36.0
+Africa,Delta,Nigeria,18.0,-35.505,2,2,0.0,-197.25
+South,Coimbra,Portugal,17.0,-4.77,1,1,0.0,-28.06
+Africa,White Nile,Sudan,16.0,5.1,1,1,0.0,31.87
+Africa,Yobe,Nigeria,16.0,-21.984,1,1,0.0,-137.4
+EMEA,Buzau,Romania,14.0,5.01,1,1,0.0,35.79
+EMEA,Canakkale,Turkey,14.0,-15.27,1,1,0.0,-109.07
+EMEA,Balikesir,Turkey,14.0,-11.442,3,3,0.0,-81.73
+Southeast Asia,Kalimantan Selatan,Indonesia,14.0,-4.5039,1,1,0.0,-32.17
+Africa,Nouakchott,Mauritania,13.0,0.24,1,1,0.0,1.85
+EMEA,Ordu,Turkey,13.0,-6.012,1,1,0.0,-46.25
+EMEA,Kaunas,Lithuania,13.0,-19.08,1,1,0.0,-146.77
+EMEA,Kocaeli,Turkey,12.0,-9.876,1,1,0.0,-82.3
+EMEA,Vlorë,Albania,11.0,2.01,1,1,0.0,18.27
+South,Lara,Venezuela,11.0,-3.288,1,1,0.0,-29.89
+Africa,Benue,Nigeria,10.0,-18.03,1,1,0.0,-180.3
+Africa,Fromager,Cote d'Ivoire,10.0,3.51,1,1,0.0,35.1
+Oceania,Gisborne,New Zealand,9.0,-10.668,1,1,0.0,-118.53
+EMEA,Bushehr,Iran,8.0,3.21,1,1,0.0,40.12
+Africa,Chaouia-Ouardigha,Morocco,7.0,2.76,1,1,0.0,39.43
+Oceania,National Capital,Papua New Guinea,7.0,-2.49,1,1,0.0,-35.57
+EMEA,Aydin,Turkey,6.0,-5.0760000000000005,2,2,0.0,-84.6
+EMEA,Andijan,Uzbekistan,6.0,2.37,1,1,0.0,39.5
+Caribbean,Martinique,Martinique,6.0,1.9,1,1,0.0,31.67
+Africa,Osun,Nigeria,6.0,-3.969,1,1,0.0,-66.15
+EMEA,Bingol,Turkey,5.0,-6.72,1,1,0.0,-134.4
+EMEA,Ashgabat,Turkmenistan,4.0,-3.309,1,1,0.0,-82.72
+EMEA,Khatlon,Tajikistan,4.0,-7.992,1,1,0.0,-199.8
