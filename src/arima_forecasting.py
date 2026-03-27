@@ -82,36 +82,72 @@ def fit_arima(series: pd.Series, order: tuple = (2, 1, 2)) -> object:
 # 3. Generate 3-month forecast
 # ─────────────────────────────────────────────────────────────────────────────
 def generate_forecast(result, series: pd.Series, steps: int = 3) -> pd.DataFrame:
-    """Generate forecast with 95% confidence intervals."""
-    forecast_result = result.get_forecast(steps=steps)
-    forecast_mean = forecast_result.predicted_mean
-    conf_int = forecast_result.conf_int(alpha=0.05)
+    """
+    Generate forecast with 95% confidence intervals.
+    Also includes ARIMA *fitted* values for historical rows so the
+    Forecast column is populated across the full date range in PowerBI.
+    """
+    # ── Fitted values for historical rows ────────────────────────────────────
+    fitted_values = result.fittedvalues  # same index as train series
 
-    # Build future dates
-    last_date = series.index[-1]
-    future_dates = pd.date_range(start=last_date + pd.DateOffset(months=1),
-                                  periods=steps, freq="MS")
+    # ── Future forecast rows ──────────────────────────────────────────────────
+    forecast_result = result.get_forecast(steps=steps)
+    forecast_mean   = forecast_result.predicted_mean
+    conf_int        = forecast_result.conf_int(alpha=0.05)
+
+    last_date    = series.index[-1]
+    future_dates = pd.date_range(
+        start=last_date + pd.DateOffset(months=1),
+        periods=steps, freq="MS"
+    )
 
     forecast_df = pd.DataFrame({
-        "YearMonth": future_dates,
-        "Sales": np.nan,
-        "Forecast": forecast_mean.values,
-        "Lower_CI": conf_int.iloc[:, 0].values,
-        "Upper_CI": conf_int.iloc[:, 1].values,
+        "YearMonth":  future_dates,
+        "Sales":      np.nan,
+        "Forecast":   forecast_mean.values,
+        "Lower_CI":   conf_int.iloc[:, 0].values,
+        "Upper_CI":   conf_int.iloc[:, 1].values,
         "Is_Forecast": True,
     })
 
-    # Combine historical + forecast
-    historical = series.reset_index().rename(columns={"index": "YearMonth", 0: "Sales"})
+    # ── Historical rows: fill Forecast with fitted ARIMA values ─────────────
+    historical = series.reset_index()
     historical.columns = ["YearMonth", "Sales"]
-    historical["Forecast"] = np.nan
-    historical["Lower_CI"] = np.nan
-    historical["Upper_CI"] = np.nan
+
+    # Map fitted values by date (fitted_values index aligns with train portion)
+    fitted_map = fitted_values.reset_index()
+    fitted_map.columns = ["YearMonth", "Forecast"]
+    fitted_map["YearMonth"] = pd.to_datetime(fitted_map["YearMonth"])
+
+    historical = historical.merge(fitted_map, on="YearMonth", how="left")
+
+    # For validation hold-out rows not in train, use forecast_val values
+    val_start    = series.index[-3]
+    val_forecast = result.forecast(steps=3)
+    val_map      = pd.DataFrame({
+        "YearMonth": series.index[-3:],
+        "Forecast":  val_forecast.values,
+    })
+    # Fill gaps in validation window
+    mask = historical["YearMonth"] >= val_start
+    for _, row in val_map.iterrows():
+        historical.loc[historical["YearMonth"] == row["YearMonth"], "Forecast"] = row["Forecast"]
+
+    historical["Lower_CI"]   = np.nan
+    historical["Upper_CI"]   = np.nan
     historical["Is_Forecast"] = False
 
     combined = pd.concat([historical, forecast_df], ignore_index=True)
-    logger.info(f"Forecast generated for {future_dates[0].date()} to {future_dates[-1].date()}")
+    logger.info(
+        f"Forecast generated for {future_dates[0].date()} to {future_dates[-1].date()}"
+    )
+    logger.info(
+        f"  Historical rows with Forecast filled: "
+        f"{combined[~combined['Is_Forecast']]['Forecast'].notna().sum()} / "
+        f"{combined[~combined['Is_Forecast']].shape[0]}"
+    )
     return combined
+
 
 
 # ─────────────────────────────────────────────────────────────────────────────
