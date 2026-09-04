@@ -1,7 +1,4 @@
 # ProfitPlus — Superstore Sales Analytics Dashboard
-
-> **Resume bullet:** Built ARIMA-powered sales dashboard identifying $2.1M in 80/20 revenue opportunities — implemented IsolationForest anomaly detection flagging 5% outlier transactions — designed 5-page interactive PowerBI dashboard with Python ML integration.
-
 ---
 
 ## 🗂️ Project Structure
